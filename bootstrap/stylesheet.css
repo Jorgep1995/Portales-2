@@ -1,0 +1,38 @@
+/* Cambiar el color de fondo del encabezado */
+header {
+    background: linear-gradient(to right, #0000b0, #6200ff);
+    color: white;
+}
+
+/* Personalizar los títulos */
+h1, h3 {
+    font-family: 'Avenir Black', 'MADE TOMMY', sans-serif;
+}
+
+/* Agregar sombreado a las columnas */
+.col-md-4 {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    transition: transform 0.2s ease;
+}
+
+/* Efecto al pasar el mouse por una columna */
+.col-md-4:hover {
+    transform: translateY(-5px);
+}
+
+/* Personalizar el footer */
+footer {
+    background-color: #353440;
+    color: #ccc;
+    font-size: 14px;
+}
+
+/* Cambiar color del navbar al hacer scroll (requiere JS para efecto completo, esto es solo ejemplo) */
+.navbar.scrolled {
+    background-color: #222 !important;
+    transition: background-color 0.3s ease-in-out;
+}
